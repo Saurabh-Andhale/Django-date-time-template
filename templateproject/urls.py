@@ -21,4 +21,5 @@ from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.wish),
+    path('test/', views.wish),
 ]
